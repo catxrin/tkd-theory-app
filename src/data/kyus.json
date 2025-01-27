@@ -1,0 +1,12 @@
+[
+  { "kuy": 10, "color": ["white"] },
+  { "kuy": 9, "color": ["white", "yellow"] },
+  { "kuy": 8, "color": ["white", "yellow"] },
+  { "kuy": 7, "color": ["white", "yellow"] },
+  { "kuy": 6, "color": ["white", "yellow"] },
+  { "kuy": 5, "color": ["white", "yellow"] },
+  { "kuy": 4, "color": ["white", "yellow"] },
+  { "kuy": 3, "color": ["white", "yellow"] },
+  { "kuy": 2, "color": ["white", "yellow"] },
+  { "kuy": 1, "color": ["white", "yellow"] }
+]
