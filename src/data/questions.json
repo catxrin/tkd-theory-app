@@ -1,5 +1,76 @@
 [
   {
+    "question": "Какво е значението на формата Саджо Чируги?",
+    "answers": [
+      { "id": "m", "text": "Четири удара в четири посоки", "correct": true },
+      { "id": "n", "text": "Небе и земя", "correct": false },
+      { "id": "o", "text": "Чеири блока в четири посоки", "correct": false },
+      { "id": "p", "text": "Псевдоним на патриота Ан Чан-Хо", "correct": false }
+    ],
+    "kyu": 10
+  },
+  {
+    "question": "Какво означава термина Ап-чаги?",
+    "answers": [
+      { "id": "e", "text": "Прав удар с крак", "correct": true },
+      { "id": "f", "text": "Кръгов удар с крак", "correct": false },
+      { "id": "g", "text": "Блок с ръка", "correct": false },
+      { "id": "h", "text": "Удар с юмрук", "correct": false }
+    ],
+    "kyu": 10
+  },
+  {
+    "question": "Кой е създателят на таекуондо?",
+    "answers": [
+      { "id": "ad", "text": "Генерал Чой Хонг-Хи", "correct": true },
+      { "id": "bd", "text": "Ан Чан-Хо", "correct": false },
+      { "id": "cd", "text": "Гичин Фунакоши", "correct": false },
+      { "id": "dd", "text": "Морихей Уешиба", "correct": false }
+    ],
+    "kyu": 10
+  },
+  {
+    "question": "Как се нарича основната стойка в 10 гуп?",
+    "answers": [
+      { "id": "ms", "text": "Чумби-соги", "correct": true },
+      { "id": "os", "text": "Ап-куби", "correct": false },
+      { "id": "ps", "text": "Дви-куби", "correct": false }
+    ],
+    "kyu": 10
+  },
+  {
+    "question": "Какво означава командата 'Сиджак'?",
+    "answers": [
+      { "id": "q", "text": "Започни", "correct": true },
+      { "id": "r", "text": "Стоп", "correct": false },
+      { "id": "s", "text": "Изправи се", "correct": false },
+      { "id": "t", "text": "Отпусни", "correct": false }
+    ],
+    "kyu": 10
+  },
+
+  {
+    "question": "Какво означава терминът Дол-йо Чаги?",
+    "answers": [
+      { "id": "f", "text": "Прав удар с крак", "correct": false },
+      { "id": "e", "text": "Страничен камшичен удар с крак", "correct": true },
+      { "id": "g", "text": "Удар с ръка", "correct": false },
+      { "id": "h", "text": "Блок с ръка", "correct": false }
+    ],
+    "kyu": 9
+  },
+
+  {
+    "question": "Какво е значението на формата Чон-джи?",
+    "answers": [
+      { "id": "a", "text": "Небе и земя", "correct": true },
+      { "id": "b", "text": "Движение и баланс", "correct": false },
+      { "id": "c", "text": "Кръгов удар", "correct": false },
+      { "id": "d", "text": "Начало и край", "correct": false }
+    ],
+    "kyu": 9
+  },
+  {
     "question": "Какво символизира жълтият колан?",
     "answers": [
       {
@@ -11,26 +82,30 @@
       { "id": 3, "text": "Мъдрост и сила", "correct": false },
       { "id": 4, "text": "Успех и прогрес", "correct": false }
     ],
-    "kyu": "8"
+    "kyu": 8
   },
   {
-    "question": "Какво представлява техниката Сонкал Макги?",
+    "question": "Колко движения има във формата Дан-Гун?",
     "answers": [
-      { "id": 5, "text": "Блок с ножа на ръката", "correct": true },
-      { "id": 6, "text": "Удар с юмрук", "correct": false },
-      { "id": 7, "text": "Страничен удар с крак", "correct": false },
-      { "id": 8, "text": "Нисък блок с ръката", "correct": false }
+      { "id": 5, "text": 21, "correct": true },
+      { "id": 6, "text": 19, "correct": false },
+      { "id": 7, "text": 24, "correct": false },
+      { "id": 8, "text": 22, "correct": false }
     ],
-    "kyu": "8"
+    "kyu": 8
   },
   {
-    "question": "Какво е значението на формата Дол-Чаги?",
+    "question": "Какво е значението на формата Дан-Гун?",
     "answers": [
-      { "id": 9, "text": "Кръгов удар с крак", "correct": true },
-      { "id": 10, "text": "Прав удар с крак", "correct": false },
-      { "id": 11, "text": "Удар с ръка", "correct": false },
-      { "id": 12, "text": "Блок с ръка", "correct": false }
+      {
+        "id": "a",
+        "text": "Името на легендарния основател на Корея",
+        "correct": true
+      },
+      { "id": "b", "text": "Начало и край", "correct": false },
+      { "id": "c", "text": "Небе и земя", "correct": false },
+      { "id": "d", "text": "Баланс и хармония", "correct": false }
     ],
-    "kyu": "8"
+    "kyu": 8
   }
 ]

@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+.subset {
+  background: conic-gradient(at 78% 3%, #0000 75%, #09304d 0),
+    conic-gradient(at 78% 3%, #0000 75%, #09304d 0) 100px 100px,
+    conic-gradient(at 78% 3%, #0000 75%, #09304d 0) calc(2 * 100px)
+      calc(2 * 100px),
+    conic-gradient(at 78% 3%, #0000 75%, #09304d 0) calc(3 * 100px)
+      calc(3 * 100px),
+    conic-gradient(at 3% 78%, #0000 75%, #09304d 0) 0 calc(3 * 100px),
+    conic-gradient(at 3% 78%, #0000 75%, #09304d 0) 100px 0,
+    conic-gradient(at 3% 78%, #0000 75%, #09304d 0) calc(2 * 100px) 100px,
+    conic-gradient(at 3% 78%, #0000 75%, #09304d 0) calc(3 * 100px)
+      calc(2 * 100px) #f5f5ff;
+  background-size: calc(4 * 100px) calc(4 * 100px);
+
+  opacity: 5%;
+}
+
+.btn-primary {
+  @apply py-1 px-4 rounded-full cursor-pointer bg-gray-600 text-white font-semibold drop-shadow-sm;
+}
