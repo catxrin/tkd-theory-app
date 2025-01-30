@@ -8,12 +8,18 @@ export default function Dropdown() {
   const [open, setOpen] = useState(false);
   const divRef = useRef(null);
 
+  const onClickOutside = (e) => {
+    if (divRef.current && !divRef.current.contains(e.target)) {
+      setOpen(false);
+    }
+  };
+
   useEffect(() => {
-    document.addEventListener("click", (e) => {
-      if (divRef.current && !divRef.current.contains(e.target)) {
-        setOpen(false);
-      }
-    });
+    document.addEventListener("click", onClickOutside);
+
+    return () => {
+      document.removeEventListener("click", onClickOutside);
+    };
   }, []);
 
   return (
