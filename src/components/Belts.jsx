@@ -17,7 +17,6 @@ export default function Belts({ kyu, mainColor, secondaryColor = null }) {
       )}
 
       <p
-        onClick={() => setCurrentKyu(kyu)}
         className={`${
           kyu <= 8 && "text-white"
         } drop-shadow-sm text-sm absolute bottom-0 w-full`}
